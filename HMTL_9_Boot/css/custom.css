@@ -1,0 +1,22 @@
+*{
+	list-style-type: none;
+
+}
+
+.supertop ul {
+	 display: flex;
+	 flex-direction: row;
+
+        justify-content:center;
+}
+
+.superbot{
+	text-align: center;
+}
+.socials ul{
+	 display: flex;
+	 flex-direction: row;
+
+        justify-content:center;
+}
+
