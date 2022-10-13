@@ -1,22 +1,140 @@
 *{
 	list-style-type: none;
+	background-color: #17232c;
+	/* kodel '* color'  overridina velesni, specifini color */
+}
+body{
+	margin: 75px auto;
+	max-width: 95%;
+}
+.main{
+	color: #fff;	
+	
+}
+
+.divider{
+	min-height: 75px;
+}
+
+.superfoot{
+
+	color: #8ba3b3;
 
 }
 
 .supertop ul {
 	 display: flex;
 	 flex-direction: row;
-
-        justify-content:center;
+     justify-content:center;
+	 font-size: large;
+	 
 }
+.supertop ul li{
+	
+	padding: 0px 20px;
+	 
 
+}
 .superbot{
 	text-align: center;
+	font-size: medium;
 }
+
 .socials ul{
 	 display: flex;
 	 flex-direction: row;
 
         justify-content:center;
 }
+
+.socials ul li a{
+	color: #434a50;
+	padding: 0px 8px;
+}
+h2{
+	font-size: medium;
+	padding-bottom: 10px;
+}
+.accordion h2
+	{
+		font-size: medium;
+		padding-bottom: 0px;
+	}
+
+
+
+hr{
+	height: 10px;
+	color: #91989e;
+}
+a{
+	text-decoration: none;
+	color: #fff;
+}
+.accordion{
+	color: #fff;
+	--bs-accordion-btn-bg: #17232c;
+}
+.accordion-button{
+	color: #fff;
+}
+.bi-currency-dollar
+{
+	font-size: 10px;
+}
+.{
+	font-weight: bold;
+}
+.accordion-button
+{
+	font-weight: bold;
+	font-size: small;
+}
+.accordion-button:not(.collapsed){
+	background-color: #172c2a;
+	color: #fff;
+}
+.accordion-item{
+	
+}
+
+
+.row{
+	display: flex;
+	align-items: center;
+	
+}
+img{
+	max-width: 20px;
+}
+button{
+	max-height: 25px;
+}
+.accordion{
+	--bs-accordion-color:#8a1919;
+	--bs-accordion-border-color: #6d8494;
+	--bs-accordion-bg: #8b8686;
+	--bs-accordion-border-width: 2px;
+	--bs-accordion-border-radius: 4px;
+	max-width: 250px;
+	
+	
+	
+
+	--bs-accordion-btn-bg: none;}
+.akordeonas {
+	max-height: 50px;
+}
+
+.col-lg-3{
+	
+}
+
+.accordion-button.collapsed {
+	background: #17232c
+  }
+
+  .accordion-button.collapsed::after {
+	background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
+  }
 
